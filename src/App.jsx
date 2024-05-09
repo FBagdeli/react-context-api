@@ -20,7 +20,7 @@ function App() {
         <MyContext.Provider value={{ user, theme, setTheme , tweets, setTweets}}>
             <div className="container">
                 <Header  />
-                <Tweets tweets={tweets} setTweets={setTweets} user={user} theme={theme}  />
+                <Tweets />
                 <RightSide />
             </div>
         </MyContext.Provider>
